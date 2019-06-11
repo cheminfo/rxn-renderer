@@ -72,7 +72,11 @@ export class RxnRenderer {
       let molecule = this.OCL.Molecule.fromMolfile(structure);
       let svg = molecule.toSVG(this.maxWidth, this.maxHeight, undefined, {
         autoCrop: true,
-        autoCropMargin: 25
+        autoCropMargin: 25,
+        suppressChiralText: true,
+        suppressCIPParity: true,
+        suppressESR: true,
+        noStereoProblem: true
       });
       result.push(`<div>${svg}</div>`);
     }
