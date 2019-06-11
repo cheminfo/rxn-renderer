@@ -1,0 +1,33 @@
+<html>
+  <style>
+    .reaction-arrow:after {
+      content: '';
+      position: absolute;
+      right: -2px;
+      top: -6px;
+      border-top: 5px solid transparent;
+      border-left: 10px solid black;
+      border-bottom: 5px solid transparent;
+    }
+    .reaction-arrow {
+      top: 50%;
+      position: relative;
+      border-top: 2px solid black;
+      width: 100%;
+    }
+  </style>
+  <body>
+    <div style="background-color:yellow; width: 100px; height: 50px"></div>
+    <div style="display: flex">
+      <div style="background-color:green; width: 100px; height: 50px"></div>
+      <div style="width: 100%">
+        <div class="reaction-arrow"></div>
+      </div>
+
+      <div
+        style="background-color:rgb(175, 230, 175); width: 100px; height: 50px"
+      ></div>
+    </div>
+    <div style="background-color:orange; width: 100px; height: 50px"></div>
+  </body>
+</html>
