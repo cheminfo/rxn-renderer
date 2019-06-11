@@ -1,7 +1,29 @@
-import { myModule } from '..';
+import { RxnRenderer } from '..';
 
-describe('test myModule', () => {
-  it('should return 42', () => {
-    expect(myModule()).toEqual(42);
+import OCL from 'openchemlib';
+
+import fs from 'fs';
+import { join } from 'path';
+
+let rxn = fs.readFileSync(join(__dirname, 'test.rxn'), 'utf8');
+
+let json = JSON.parse(fs.readFileSync(join(__dirname, 'test.json'), 'utf8'));
+
+describe('test rxn renderer', () => {
+  it('generate file for rxn', () => {
+    let rxnRenderer = new RxnRenderer(OCL, {
+      maxWidth: 200,
+      maxHeight: 100
+    });
+    let result = rxnRenderer.renderRXN(rxn);
+    expect(result).toMatchSnapshot();
+    fs.writeFileSync(join(__dirname, 'test-rxn.html'), result);
+  });
+
+  it('generate file for json', () => {
+    let rxnRenderer = new RxnRenderer(OCL);
+    let result = rxnRenderer.render(json);
+    expect(result).toMatchSnapshot();
+    fs.writeFileSync(join(__dirname, 'test-json.html'), result);
   });
 });

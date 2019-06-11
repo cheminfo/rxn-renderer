@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test rxn renderer generate file for json 1`] = `
+"<div style=\\"display: flex; align-items: center;\\"><div><svg id=\\"mol6\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"118px\\" height=\\"103px\\" viewBox=\\"152 99 118 103\\">
+	<style> #mol6 {pointer-events:none; }  #mol6 .event  { pointer-events:all;}  </style>
+	<text x=\\"215\\" y=\\"166\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">N</text>
+	<text x=\\"236\\" y=\\"170\\" font-family=\\" Helvetica\\" font-size=\\"9\\" fill=\\"rgb(48,80,248)\\">2</text>
+	<text x=\\"225\\" y=\\"166\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">H</text>
+	<line x1=\\"214\\" y1=\\"158\\" x2=\\"199\\" y2=\\"150\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"199\\" y1=\\"150\\" x2=\\"199\\" y2=\\"126\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"199\\" y1=\\"150\\" x2=\\"199\\" y2=\\"173\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"199\\" y1=\\"150\\" x2=\\"179\\" y2=\\"162\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line id=\\"mol6:Bond:0\\" class=\\"event\\" x1=\\"220\\" y1=\\"162\\" x2=\\"199\\" y2=\\"150\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol6:Bond:1\\" class=\\"event\\" x1=\\"199\\" y1=\\"150\\" x2=\\"199\\" y2=\\"126\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol6:Bond:2\\" class=\\"event\\" x1=\\"199\\" y1=\\"150\\" x2=\\"199\\" y2=\\"173\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol6:Bond:3\\" class=\\"event\\" x1=\\"199\\" y1=\\"150\\" x2=\\"179\\" y2=\\"162\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol6:Atom:0\\" class=\\"event\\" cx=\\"220\\" cy=\\"162\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol6:Atom:1\\" class=\\"event\\" cx=\\"199\\" cy=\\"150\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol6:Atom:2\\" class=\\"event\\" cx=\\"199\\" cy=\\"126\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol6:Atom:3\\" class=\\"event\\" cx=\\"199\\" cy=\\"173\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol6:Atom:4\\" class=\\"event\\" cx=\\"179\\" cy=\\"162\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div><div>+</div><div><svg id=\\"mol7\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"123px\\" height=\\"122px\\" viewBox=\\"141 93 123 122\\">
+	<style> #mol7 {pointer-events:none; }  #mol7 .event  { pointer-events:all;}  </style>
+	<text x=\\"204\\" y=\\"184\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(31,240,31)\\">Cl</text>
+	<text x=\\"225\\" y=\\"147\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<line x1=\\"210\\" y1=\\"158\\" x2=\\"225\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"208\\" y1=\\"154\\" x2=\\"223\\" y2=\\"146\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"210\\" y1=\\"173\\" x2=\\"210\\" y2=\\"156\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"210\\" y1=\\"156\\" x2=\\"189\\" y2=\\"143\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"189\\" y1=\\"143\\" x2=\\"189\\" y2=\\"119\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"189\\" y1=\\"143\\" x2=\\"168\\" y2=\\"155\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line id=\\"mol7:Bond:1\\" class=\\"event\\" x1=\\"210\\" y1=\\"156\\" x2=\\"231\\" y2=\\"143\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol7:Bond:0\\" class=\\"event\\" x1=\\"210\\" y1=\\"180\\" x2=\\"210\\" y2=\\"156\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol7:Bond:2\\" class=\\"event\\" x1=\\"210\\" y1=\\"156\\" x2=\\"189\\" y2=\\"143\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol7:Bond:3\\" class=\\"event\\" x1=\\"189\\" y1=\\"143\\" x2=\\"189\\" y2=\\"119\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol7:Bond:4\\" class=\\"event\\" x1=\\"189\\" y1=\\"143\\" x2=\\"168\\" y2=\\"155\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol7:Atom:0\\" class=\\"event\\" cx=\\"210\\" cy=\\"180\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol7:Atom:1\\" class=\\"event\\" cx=\\"210\\" cy=\\"156\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol7:Atom:2\\" class=\\"event\\" cx=\\"231\\" cy=\\"143\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol7:Atom:3\\" class=\\"event\\" cx=\\"189\\" cy=\\"143\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol7:Atom:4\\" class=\\"event\\" cx=\\"189\\" cy=\\"119\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol7:Atom:5\\" class=\\"event\\" cx=\\"168\\" cy=\\"155\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div><div>
+    <div style=\\"text-align: center; margin: 5px\\">hover</div>
+    <div>
+      <div
+        style=\\"top: 50%; position: relative; border-top: 2px solid black; width: 100%; min-width: 70px\\"
+      >
+        <div
+          style=\\"position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid black;border-bottom: 5px solid transparent;\\"
+        ></div>
+      </div>
+    </div>
+    <div style=\\"text-align: center; margin: 5px\\">
+      under
+    </div>
+  </div><div><svg id=\\"mol8\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"159px\\" height=\\"122px\\" viewBox=\\"121 86 159 122\\">
+	<style> #mol8 {pointer-events:none; }  #mol8 .event  { pointer-events:all;}  </style>
+	<text x=\\"184\\" y=\\"160\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">N</text>
+	<text x=\\"184\\" y=\\"174\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">H</text>
+	<text x=\\"204\\" y=\\"123\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<line x1=\\"212\\" y1=\\"145\\" x2=\\"212\\" y2=\\"126\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"208\\" y1=\\"145\\" x2=\\"208\\" y2=\\"126\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"195\\" y1=\\"152\\" x2=\\"210\\" y2=\\"143\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"210\\" y1=\\"143\\" x2=\\"231\\" y2=\\"156\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"231\\" y1=\\"156\\" x2=\\"251\\" y2=\\"143\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"231\\" y1=\\"156\\" x2=\\"231\\" y2=\\"180\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"183\\" y1=\\"152\\" x2=\\"168\\" y2=\\"143\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"168\\" y1=\\"143\\" x2=\\"148\\" y2=\\"156\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"168\\" y1=\\"143\\" x2=\\"168\\" y2=\\"119\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"168\\" y1=\\"143\\" x2=\\"148\\" y2=\\"131\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line id=\\"mol8:Bond:4\\" class=\\"event\\" x1=\\"210\\" y1=\\"143\\" x2=\\"210\\" y2=\\"119\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:0\\" class=\\"event\\" x1=\\"189\\" y1=\\"156\\" x2=\\"210\\" y2=\\"143\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:1\\" class=\\"event\\" x1=\\"210\\" y1=\\"143\\" x2=\\"231\\" y2=\\"156\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:2\\" class=\\"event\\" x1=\\"231\\" y1=\\"156\\" x2=\\"251\\" y2=\\"143\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:3\\" class=\\"event\\" x1=\\"231\\" y1=\\"156\\" x2=\\"231\\" y2=\\"180\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:5\\" class=\\"event\\" x1=\\"189\\" y1=\\"156\\" x2=\\"168\\" y2=\\"143\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:6\\" class=\\"event\\" x1=\\"168\\" y1=\\"143\\" x2=\\"148\\" y2=\\"156\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:7\\" class=\\"event\\" x1=\\"168\\" y1=\\"143\\" x2=\\"168\\" y2=\\"119\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol8:Bond:8\\" class=\\"event\\" x1=\\"168\\" y1=\\"143\\" x2=\\"148\\" y2=\\"131\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:0\\" class=\\"event\\" cx=\\"189\\" cy=\\"156\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:1\\" class=\\"event\\" cx=\\"210\\" cy=\\"143\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:2\\" class=\\"event\\" cx=\\"231\\" cy=\\"156\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:3\\" class=\\"event\\" cx=\\"251\\" cy=\\"143\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:4\\" class=\\"event\\" cx=\\"231\\" cy=\\"180\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:5\\" class=\\"event\\" cx=\\"210\\" cy=\\"119\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:6\\" class=\\"event\\" cx=\\"168\\" cy=\\"143\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:7\\" class=\\"event\\" cx=\\"148\\" cy=\\"156\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:8\\" class=\\"event\\" cx=\\"168\\" cy=\\"119\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol8:Atom:9\\" class=\\"event\\" cx=\\"148\\" cy=\\"131\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div></div>"
+`;
+
+exports[`test rxn renderer generate file for rxn 1`] = `
+"<div style=\\"display: flex; align-items: center;\\"><div><svg id=\\"mol1\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"258px\\" height=\\"141px\\" viewBox=\\"63 80 258 141\\">
+	<style> #mol1 {pointer-events:none; }  #mol1 .event  { pointer-events:all;}  </style>
+	<text x=\\"143\\" y=\\"189\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">N</text>
+	<text x=\\"184\\" y=\\"117\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<text x=\\"267\\" y=\\"141\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">N</text>
+	<text x=\\"278\\" y=\\"136\\" font-family=\\" Helvetica\\" font-size=\\"9\\" fill=\\"rgb(48,80,248)\\">+</text>
+	<text x=\\"277\\" y=\\"131\\" font-family=\\" Helvetica\\" font-size=\\"9\\" fill=\\"rgb(48,80,248)\\">2</text>
+	<text x=\\"267\\" y=\\"127\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">H</text>
+	<text x=\\"101\\" y=\\"190\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<text x=\\"90\\" y=\\"190\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">H</text>
+	<line x1=\\"147\\" y1=\\"138\\" x2=\\"127\\" y2=\\"150\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"147\\" y1=\\"142\\" x2=\\"131\\" y2=\\"151\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"127\\" y1=\\"174\\" x2=\\"142\\" y2=\\"182\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"131\\" y1=\\"172\\" x2=\\"143\\" y2=\\"178\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"168\\" y1=\\"173\\" x2=\\"168\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"165\\" y1=\\"171\\" x2=\\"165\\" y2=\\"152\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"191\\" y1=\\"138\\" x2=\\"191\\" y2=\\"120\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"187\\" y1=\\"138\\" x2=\\"187\\" y2=\\"120\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"147\\" y1=\\"138\\" x2=\\"168\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"127\\" y1=\\"150\\" x2=\\"127\\" y2=\\"174\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"154\\" y1=\\"182\\" x2=\\"168\\" y2=\\"173\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"168\\" y1=\\"149\\" x2=\\"189\\" y2=\\"137\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"189\\" y1=\\"137\\" x2=\\"210\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"210\\" y1=\\"149\\" x2=\\"231\\" y2=\\"137\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"231\\" y1=\\"137\\" x2=\\"251\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"251\\" y1=\\"149\\" x2=\\"266\\" y2=\\"141\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"278\\" y1=\\"141\\" x2=\\"293\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"127\\" y1=\\"174\\" x2=\\"112\\" y2=\\"182\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line id=\\"mol1:Bond:0\\" class=\\"event\\" x1=\\"147\\" y1=\\"138\\" x2=\\"127\\" y2=\\"150\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:3\\" class=\\"event\\" x1=\\"127\\" y1=\\"174\\" x2=\\"148\\" y2=\\"185\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:5\\" class=\\"event\\" x1=\\"168\\" y1=\\"173\\" x2=\\"168\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:7\\" class=\\"event\\" x1=\\"189\\" y1=\\"137\\" x2=\\"189\\" y2=\\"113\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:1\\" class=\\"event\\" x1=\\"147\\" y1=\\"138\\" x2=\\"168\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:2\\" class=\\"event\\" x1=\\"127\\" y1=\\"150\\" x2=\\"127\\" y2=\\"174\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:4\\" class=\\"event\\" x1=\\"148\\" y1=\\"185\\" x2=\\"168\\" y2=\\"173\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:6\\" class=\\"event\\" x1=\\"168\\" y1=\\"149\\" x2=\\"189\\" y2=\\"137\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:8\\" class=\\"event\\" x1=\\"189\\" y1=\\"137\\" x2=\\"210\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:9\\" class=\\"event\\" x1=\\"210\\" y1=\\"149\\" x2=\\"231\\" y2=\\"137\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:10\\" class=\\"event\\" x1=\\"231\\" y1=\\"137\\" x2=\\"251\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:11\\" class=\\"event\\" x1=\\"251\\" y1=\\"149\\" x2=\\"272\\" y2=\\"137\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:12\\" class=\\"event\\" x1=\\"272\\" y1=\\"137\\" x2=\\"293\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol1:Bond:13\\" class=\\"event\\" x1=\\"127\\" y1=\\"174\\" x2=\\"106\\" y2=\\"186\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:0\\" class=\\"event\\" cx=\\"147\\" cy=\\"138\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:1\\" class=\\"event\\" cx=\\"127\\" cy=\\"150\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:2\\" class=\\"event\\" cx=\\"168\\" cy=\\"173\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:3\\" class=\\"event\\" cx=\\"148\\" cy=\\"185\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:4\\" class=\\"event\\" cx=\\"168\\" cy=\\"149\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:5\\" class=\\"event\\" cx=\\"189\\" cy=\\"113\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:6\\" class=\\"event\\" cx=\\"189\\" cy=\\"137\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:7\\" class=\\"event\\" cx=\\"210\\" cy=\\"149\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:8\\" class=\\"event\\" cx=\\"231\\" cy=\\"137\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:9\\" class=\\"event\\" cx=\\"251\\" cy=\\"149\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:10\\" class=\\"event\\" cx=\\"272\\" cy=\\"137\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:11\\" class=\\"event\\" cx=\\"293\\" cy=\\"149\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:12\\" class=\\"event\\" cx=\\"127\\" cy=\\"174\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol1:Atom:13\\" class=\\"event\\" cx=\\"106\\" cy=\\"186\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div><div>+</div><div><svg id=\\"mol2\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"129px\\" height=\\"81px\\" viewBox=\\"135 110 129 81\\">
+	<style> #mol2 {pointer-events:none; }  #mol2 .event  { pointer-events:all;}  </style>
+	<text x=\\"204\\" y=\\"160\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<text x=\\"184\\" y=\\"147\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<text x=\\"163\\" y=\\"159\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(0,0,0)\\">H</text>
+	<text x=\\"226\\" y=\\"148\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(0,0,0)\\">H</text>
+	<line x1=\\"203\\" y1=\\"152\\" x2=\\"196\\" y2=\\"147\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"174\\" y1=\\"152\\" x2=\\"183\\" y2=\\"147\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"225\\" y1=\\"147\\" x2=\\"216\\" y2=\\"152\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line id=\\"mol2:Bond:0\\" class=\\"event\\" x1=\\"210\\" y1=\\"156\\" x2=\\"189\\" y2=\\"143\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol2:Bond:1\\" class=\\"event\\" x1=\\"168\\" y1=\\"155\\" x2=\\"189\\" y2=\\"143\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol2:Bond:2\\" class=\\"event\\" x1=\\"231\\" y1=\\"144\\" x2=\\"210\\" y2=\\"156\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol2:Atom:0\\" class=\\"event\\" cx=\\"210\\" cy=\\"156\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol2:Atom:1\\" class=\\"event\\" cx=\\"189\\" cy=\\"143\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol2:Atom:2\\" class=\\"event\\" cx=\\"168\\" cy=\\"155\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol2:Atom:3\\" class=\\"event\\" cx=\\"231\\" cy=\\"144\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div><div>
+    <div style=\\"text-align: center; margin: 5px\\"></div>
+    <div>
+      <div
+        style=\\"top: 50%; position: relative; border-top: 2px solid black; width: 100%; min-width: 70px\\"
+      >
+        <div
+          style=\\"position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid black;border-bottom: 5px solid transparent;\\"
+        ></div>
+      </div>
+    </div>
+    <div style=\\"text-align: center; margin: 5px\\">
+      
+    </div>
+  </div><div><svg id=\\"mol3\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"193px\\" height=\\"133px\\" viewBox=\\"95 87 193 133\\">
+	<style> #mol3 {pointer-events:none; }  #mol3 .event  { pointer-events:all;}  </style>
+	<text x=\\"145\\" y=\\"214\\" font-family=\\" Helvetica\\" font-size=\\"12\\" fill=\\"rgb(160,0,0)\\">unknown chirality</text>
+	<text x=\\"236\\" y=\\"155\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(192,0,255)\\">N</text>
+	<text x=\\"247\\" y=\\"150\\" font-family=\\" Helvetica\\" font-size=\\"9\\" fill=\\"rgb(192,0,255)\\">+</text>
+	<text x=\\"236\\" y=\\"141\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(192,0,255)\\">H</text>
+	<text x=\\"215\\" y=\\"145\\" font-family=\\" Helvetica\\" font-size=\\"9\\" fill=\\"rgb(160,0,0)\\">R</text>
+	<text x=\\"220\\" y=\\"138\\" font-family=\\" Helvetica\\" font-size=\\"9\\" fill=\\"rgb(160,0,0)\\">abs</text>
+	<text x=\\"175\\" y=\\"189\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(48,80,248)\\">N</text>
+	<text x=\\"133\\" y=\\"189\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<text x=\\"123\\" y=\\"189\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">H</text>
+	<text x=\\"193\\" y=\\"135\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(0,0,0)\\">H</text>
+	<line x1=\\"201\\" y1=\\"173\\" x2=\\"201\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"197\\" y1=\\"170\\" x2=\\"197\\" y2=\\"151\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"159\\" y1=\\"173\\" x2=\\"174\\" y2=\\"181\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"163\\" y1=\\"171\\" x2=\\"175\\" y2=\\"178\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"180\\" y1=\\"137\\" x2=\\"159\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"180\\" y1=\\"141\\" x2=\\"163\\" y2=\\"151\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"250\\" y1=\\"144\\" x2=\\"255\\" y2=\\"141\\" style=\\"stroke:rgb(192,0,255);stroke-width:1\\"/>
+	<line x1=\\"255\\" y1=\\"141\\" x2=\\"260\\" y2=\\"137\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"235\\" y1=\\"147\\" x2=\\"228\\" y2=\\"142\\" style=\\"stroke:rgb(192,0,255);stroke-width:1\\"/>
+	<line x1=\\"228\\" y1=\\"142\\" x2=\\"222\\" y2=\\"137\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"260\\" y1=\\"137\\" x2=\\"253\\" y2=\\"114\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"253\\" y1=\\"114\\" x2=\\"229\\" y2=\\"114\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"229\\" y1=\\"114\\" x2=\\"222\\" y2=\\"137\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"222\\" y1=\\"137\\" x2=\\"201\\" y2=\\"149\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"201\\" y1=\\"149\\" x2=\\"180\\" y2=\\"137\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"186\\" y1=\\"181\\" x2=\\"201\\" y2=\\"173\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"159\\" y1=\\"149\\" x2=\\"159\\" y2=\\"173\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"241\\" y1=\\"158\\" x2=\\"241\\" y2=\\"167\\" style=\\"stroke:rgb(192,0,255);stroke-width:1\\"/>
+	<line x1=\\"241\\" y1=\\"167\\" x2=\\"241\\" y2=\\"175\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"159\\" y1=\\"173\\" x2=\\"145\\" y2=\\"181\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"219\\" y1=\\"136\\" x2=\\"219\\" y2=\\"137\\" style=\\"stroke:rgb(160,0,0);stroke-width:1\\"/>
+	<line x1=\\"216\\" y1=\\"135\\" x2=\\"216\\" y2=\\"136\\" style=\\"stroke:rgb(160,0,0);stroke-width:1\\"/>
+	<line x1=\\"214\\" y1=\\"134\\" x2=\\"213\\" y2=\\"136\\" style=\\"stroke:rgb(160,0,0);stroke-width:1\\"/>
+	<line x1=\\"211\\" y1=\\"132\\" x2=\\"210\\" y2=\\"135\\" style=\\"stroke:rgb(160,0,0);stroke-width:1\\"/>
+	<line x1=\\"208\\" y1=\\"131\\" x2=\\"207\\" y2=\\"135\\" style=\\"stroke:rgb(160,0,0);stroke-width:1\\"/>
+	<line x1=\\"206\\" y1=\\"130\\" x2=\\"205\\" y2=\\"135\\" style=\\"stroke:rgb(160,0,0);stroke-width:1\\"/>
+	<line id=\\"mol3:Bond:6\\" class=\\"event\\" x1=\\"201\\" y1=\\"173\\" x2=\\"201\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:9\\" class=\\"event\\" x1=\\"180\\" y1=\\"185\\" x2=\\"159\\" y2=\\"173\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:10\\" class=\\"event\\" x1=\\"180\\" y1=\\"137\\" x2=\\"159\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:0\\" class=\\"event\\" x1=\\"241\\" y1=\\"151\\" x2=\\"260\\" y2=\\"137\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:1\\" class=\\"event\\" x1=\\"241\\" y1=\\"151\\" x2=\\"222\\" y2=\\"137\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:2\\" class=\\"event\\" x1=\\"260\\" y1=\\"137\\" x2=\\"253\\" y2=\\"114\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:3\\" class=\\"event\\" x1=\\"253\\" y1=\\"114\\" x2=\\"229\\" y2=\\"114\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:4\\" class=\\"event\\" x1=\\"229\\" y1=\\"114\\" x2=\\"222\\" y2=\\"137\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:5\\" class=\\"event\\" x1=\\"222\\" y1=\\"137\\" x2=\\"201\\" y2=\\"149\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:7\\" class=\\"event\\" x1=\\"201\\" y1=\\"149\\" x2=\\"180\\" y2=\\"137\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:8\\" class=\\"event\\" x1=\\"180\\" y1=\\"185\\" x2=\\"201\\" y2=\\"173\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:11\\" class=\\"event\\" x1=\\"159\\" y1=\\"149\\" x2=\\"159\\" y2=\\"173\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:12\\" class=\\"event\\" x1=\\"241\\" y1=\\"151\\" x2=\\"241\\" y2=\\"175\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:13\\" class=\\"event\\" x1=\\"159\\" y1=\\"173\\" x2=\\"139\\" y2=\\"185\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol3:Bond:14\\" class=\\"event\\" x1=\\"222\\" y1=\\"137\\" x2=\\"198\\" y2=\\"131\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:0\\" class=\\"event\\" cx=\\"260\\" cy=\\"137\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:1\\" class=\\"event\\" cx=\\"253\\" cy=\\"114\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:2\\" class=\\"event\\" cx=\\"229\\" cy=\\"114\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:3\\" class=\\"event\\" cx=\\"241\\" cy=\\"151\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:4\\" class=\\"event\\" cx=\\"222\\" cy=\\"137\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:5\\" class=\\"event\\" cx=\\"201\\" cy=\\"149\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:6\\" class=\\"event\\" cx=\\"201\\" cy=\\"173\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:7\\" class=\\"event\\" cx=\\"180\\" cy=\\"137\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:8\\" class=\\"event\\" cx=\\"159\\" cy=\\"149\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:9\\" class=\\"event\\" cx=\\"159\\" cy=\\"173\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:10\\" class=\\"event\\" cx=\\"180\\" cy=\\"185\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:11\\" class=\\"event\\" cx=\\"241\\" cy=\\"175\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:12\\" class=\\"event\\" cx=\\"139\\" cy=\\"185\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol3:Atom:13\\" class=\\"event\\" cx=\\"198\\" cy=\\"131\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div><div>+</div><div><svg id=\\"mol4\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"79px\\" height=\\"110px\\" viewBox=\\"161 95 79 110\\">
+	<style> #mol4 {pointer-events:none; }  #mol4 .event  { pointer-events:all;}  </style>
+	<text x=\\"200\\" y=\\"154\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<text x=\\"188\\" y=\\"133\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(0,0,0)\\">H</text>
+	<text x=\\"188\\" y=\\"174\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(0,0,0)\\">H</text>
+	<line x1=\\"201\\" y1=\\"143\\" x2=\\"198\\" y2=\\"136\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"201\\" y1=\\"157\\" x2=\\"198\\" y2=\\"163\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line id=\\"mol4:Bond:0\\" class=\\"event\\" x1=\\"205\\" y1=\\"150\\" x2=\\"194\\" y2=\\"129\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<line id=\\"mol4:Bond:1\\" class=\\"event\\" x1=\\"205\\" y1=\\"150\\" x2=\\"194\\" y2=\\"170\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol4:Atom:0\\" class=\\"event\\" cx=\\"205\\" cy=\\"150\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol4:Atom:1\\" class=\\"event\\" cx=\\"194\\" cy=\\"129\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol4:Atom:2\\" class=\\"event\\" cx=\\"194\\" cy=\\"170\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div><div>+</div><div><svg id=\\"mol5\\" xmlns=\\"http://www.w3.org/2000/svg\\" version=\\"1.1\\" width=\\"92px\\" height=\\"69px\\" viewBox=\\"154 116 92 69\\">
+	<style> #mol5 {pointer-events:none; }  #mol5 .event  { pointer-events:all;}  </style>
+	<text x=\\"182\\" y=\\"154\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<text x=\\"206\\" y=\\"154\\" font-family=\\" Helvetica\\" font-size=\\"14\\" fill=\\"rgb(255,13,13)\\">O</text>
+	<line x1=\\"194\\" y1=\\"151\\" x2=\\"205\\" y2=\\"151\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line x1=\\"194\\" y1=\\"148\\" x2=\\"205\\" y2=\\"148\\" style=\\"stroke:rgb(0,0,0);stroke-width:1\\"/>
+	<line id=\\"mol5:Bond:0\\" class=\\"event\\" x1=\\"188\\" y1=\\"150\\" x2=\\"212\\" y2=\\"150\\" stroke-width=\\"8\\" stroke-opacity=\\"0\\"/>
+	<circle id=\\"mol5:Atom:0\\" class=\\"event\\" cx=\\"188\\" cy=\\"150\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+	<circle id=\\"mol5:Atom:1\\" class=\\"event\\" cx=\\"212\\" cy=\\"150\\" r=\\"8\\" fill-opacity=\\"0\\"/>
+</svg></div></div>"
+`;
