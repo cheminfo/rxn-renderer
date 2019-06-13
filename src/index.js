@@ -43,7 +43,7 @@ export class RxnRenderer {
   }
 
   getArrow(hover = '', under = '') {
-    return `<div style="font-family: arial; font-size: 10px">
+    return `<div style="font-family: arial, sans-serif; font-size: 10px">
     <div style="text-align: center; margin: 5px">${hover}</div>
     <div>
       <div
