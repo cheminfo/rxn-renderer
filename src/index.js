@@ -13,7 +13,7 @@ export class RxnRenderer {
     let result = this.getStructures(parsed.reagents);
     result += this.getArrow();
     result += this.getStructures(parsed.products);
-    return `<div style="display: flex; align-items: center;">${result}</div>`;
+    return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
   }
   render(object = {}) {
     let result = '';
@@ -39,7 +39,7 @@ export class RxnRenderer {
       result += this.getStructures(parsed.products);
     }
 
-    return `<div style="display: flex; align-items: center;">${result}</div>`;
+    return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
   }
 
   getArrow(hover = '', under = '') {
