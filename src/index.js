@@ -11,7 +11,9 @@ export class RxnRenderer {
   renderRXN(rxn) {
     let parsed = parse(rxn);
     let result = this.getStructures(parsed.reagents);
-    result += this.getArrow();
+    if (parsed.reagents.length > 0 || parsed.products.length > 0) {
+      result += this.getArrow();
+    }
     result += this.getStructures(parsed.products);
     return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
   }
