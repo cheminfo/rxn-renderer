@@ -1,19 +1,19 @@
-import { RxnRenderer } from '..';
+import fs from 'fs';
+import { join } from 'path';
 
 import OCL from 'openchemlib';
 
-import fs from 'fs';
-import { join } from 'path';
+import { RxnRenderer } from '..';
 
 let rxn = fs.readFileSync(join(__dirname, 'test.rxn'), 'utf8');
 
 let json = JSON.parse(fs.readFileSync(join(__dirname, 'test.json'), 'utf8'));
 
-describe('test rxn renderer', () => {
+describe('rxn-renderer', () => {
   it('generate file for rxn', () => {
     let rxnRenderer = new RxnRenderer(OCL, {
       maxWidth: 200,
-      maxHeight: 100
+      maxHeight: 100,
     });
     let result = rxnRenderer.renderRXN(rxn);
     expect(result).toMatchSnapshot();

@@ -76,7 +76,7 @@ export class RxnRenderer {
         suppressChiralText: true,
         suppressCIPParity: true,
         suppressESR: true,
-        noStereoProblem: true
+        noStereoProblem: true,
       });
       result.push(`<div>${svg}</div>`);
     }
@@ -92,7 +92,7 @@ function subscript(string) {
 let tagsToReplace = {
   '&': '&amp;',
   '<': '&lt;',
-  '>': '&gt;'
+  '>': '&gt;',
 };
 
 function safeTagsReplace(str) {
