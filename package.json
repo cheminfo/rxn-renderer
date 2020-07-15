@@ -30,17 +30,17 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
-    "eslint": "^6.8.0",
-    "eslint-config-cheminfo": "^2.0.4",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^23.6.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "jest": "^25.1.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "eslint": "^7.4.0",
+    "eslint-config-cheminfo": "^4.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
     "npm-run-all": "^4.1.5",
     "openchemlib": "^7.2.3",
-    "prettier": "^1.19.1",
-    "rollup": "^1.31.0"
+    "prettier": "^2.0.5",
+    "rollup": "^2.21.0"
   },
   "dependencies": {
     "rxn-parser": "^0.1.0"
