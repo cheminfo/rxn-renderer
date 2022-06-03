@@ -7,6 +7,7 @@ import { RxnRenderer } from '..';
 
 let rxn = fs.readFileSync(join(__dirname, 'test.rxn'), 'utf8');
 let emptyRXN = fs.readFileSync(join(__dirname, 'empty.rxn'), 'utf8');
+let corrupted = fs.readFileSync(join(__dirname, 'corrupted.rxn'), 'utf8');
 
 let json = JSON.parse(fs.readFileSync(join(__dirname, 'test.json'), 'utf8'));
 
@@ -19,6 +20,15 @@ describe('rxn-renderer', () => {
     let result = rxnRenderer.renderRXN(rxn);
     expect(result).toMatchSnapshot();
     fs.writeFileSync(join(__dirname, 'test-rxn.html'), result);
+  });
+
+  it('generate file for corrupted rxn', () => {
+    let rxnRenderer = new RxnRenderer(OCL, {
+      maxWidth: 200,
+      maxHeight: 100,
+    });
+    let result = rxnRenderer.renderRXN(corrupted);
+    expect(result).toMatchSnapshot();
   });
 
   it('generate file for empty rxn', () => {

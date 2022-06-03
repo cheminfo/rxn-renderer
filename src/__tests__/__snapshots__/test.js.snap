@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`rxn-renderer generate file for corrupted rxn 1`] = `"<div style=\\"display: flex; align-items: center; justify-content: center; flex-wrap: wrap;\\">Error: not the correct number of molecules</div>"`;
+
 exports[`rxn-renderer generate file for empty rxn 1`] = `"<div style=\\"display: flex; align-items: center; justify-content: center; flex-wrap: wrap;\\"></div>"`;
 
 exports[`rxn-renderer generate file for json 1`] = `
