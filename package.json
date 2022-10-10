@@ -9,6 +9,7 @@
     "src"
   ],
   "scripts": {
+    "build": "cheminfo-build --entry src/index.js --root RXNRenderer",
     "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix",
     "prettier": "prettier --check src",
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.6",
+    "cheminfo-build": "^1.1.11",
     "eslint": "^8.25.0",
     "eslint-config-cheminfo": "^8.0.2",
     "eslint-plugin-import": "^2.26.0",
