@@ -1,8 +1,9 @@
 # rxn-renderer
 
-  [![NPM version][npm-image]][npm-url]
-  [![build status][travis-image]][travis-url]
-  [![npm download][download-image]][download-url]
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![npm download][download-image]][download-url]
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6611392.svg)](https://doi.org/10.5281/zenodo.6611392)
 
 .
 
@@ -131,16 +132,15 @@ M  END
 `;
 
 const rxnRenderer = new RxnRenderer(OCL, {
-    maxWidth: 200,
-    maxHeight: 100,
-  });
+  maxWidth: 200,
+  maxHeight: 100,
+});
 let html = rxnRenderer.renderRXN(rxn);
-
 ```
 
 ## License
 
-  [MIT](./LICENSE)
+[MIT](./LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/rxn-renderer.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/rxn-renderer
