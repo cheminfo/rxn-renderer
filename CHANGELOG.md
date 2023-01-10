@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.0](https://github.com/cheminfo/rxn-renderer/compare/v0.2.0...v1.0.0) (2023-01-10)
+
+
+### Features
+
+* add renderRXNCode ([a3b13ae](https://github.com/cheminfo/rxn-renderer/commit/a3b13ae6d01c19566cb200b4d6cd1dda71d99b91))
+
+
+### Documentation
+
+* add link to zenodo ([f30dfaf](https://github.com/cheminfo/rxn-renderer/commit/f30dfaffa4f1f2b9a8a3b4a4cf81a03a634ac600))
+
+
+### release-as
+
+* 1.0.0 ([e4c3763](https://github.com/cheminfo/rxn-renderer/commit/e4c376392d032833eb26c16e19e7d6defe07f08d))
+
 ## [0.2.0](https://github.com/cheminfo/rxn-renderer/compare/v0.1.0...v0.2.0) (2022-06-03)
 
 
