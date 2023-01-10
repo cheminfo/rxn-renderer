@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cheminfo/rxn-renderer/compare/v1.0.0...v1.0.1) (2023-01-10)
+
+
+### Documentation
+
+* fix changelog and rollup.config ([4056a7e](https://github.com/cheminfo/rxn-renderer/commit/4056a7ec912514eb7b2c2486ed1acb11b04c9778))
+
 ## [1.0.0](https://github.com/cheminfo/rxn-renderer/compare/v0.2.0...v1.0.0) (2023-01-10)
 
 ### Features
