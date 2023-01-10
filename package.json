@@ -1,6 +1,6 @@
 {
   "name": "rxn-renderer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "RXN file renderer",
   "main": "lib/index.js",
   "module": "src/index.js",

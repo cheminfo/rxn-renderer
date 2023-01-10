@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/cheminfo/rxn-renderer/compare/v0.2.0...v0.2.1) (2023-01-10)
+
+
+### Documentation
+
+* add link to zenodo ([f30dfaf](https://github.com/cheminfo/rxn-renderer/commit/f30dfaffa4f1f2b9a8a3b4a4cf81a03a634ac600))
+
 ## [0.2.0](https://github.com/cheminfo/rxn-renderer/compare/v0.1.0...v0.2.0) (2022-06-03)
 
 
