@@ -6,10 +6,10 @@ exports[`rxn-renderer generate file for empty rxn 1`] = `"<div style="display: f
 
 exports[`rxn-renderer generate file for json 1`] = `
 "<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;"><div><svg id="mol6" xmlns="http://www.w3.org/2000/svg" version="1.1" width="118px" height="103px" viewBox="152 99 118 103">
-  <style> #mol6 { pointer-events:none; } #mol6 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="215.85" y="166.91" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">N</text>
-  <text x="236.07" y="170.24" font-family=" Helvetica" font-size="9" fill="rgb(48,80,248)">2</text>
-  <text x="225.96" y="166.91" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">H</text>
+  <style> text {font-family: sans-serif;} #mol6 { pointer-events:none; } #mol6 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="215.85" y="166.91" stroke="none" font-size="14" fill="rgb(48,80,248)">N</text>
+  <text x="236.07" y="170.24" stroke="none" font-size="9" fill="rgb(48,80,248)">2</text>
+  <text x="225.96" y="166.91" stroke="none" font-size="14" fill="rgb(48,80,248)">H</text>
   <line x1="214.85" y1="158.75" x2="200" y2="150.19" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="200" y1="150.19" x2="199.81" y2="126.08" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="200" y1="150.19" x2="199.81" y2="173.92" stroke="rgb(0,0,0)" stroke-width="1.44" />
@@ -24,9 +24,9 @@ exports[`rxn-renderer generate file for json 1`] = `
   <circle id="mol6:Atom:3" class="event" cx="199.81" cy="173.92" r="8" opacity="0" />
   <circle id="mol6:Atom:4" class="event" cx="179.1" cy="162.05" r="8" opacity="0" />
 </svg></div><div>+</div><div><svg id="mol7" xmlns="http://www.w3.org/2000/svg" version="1.1" width="123px" height="122px" viewBox="141 93 123 122">
-  <style> #mol7 { pointer-events:none; } #mol7 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="204.2" y="184.75" font-family=" Helvetica" font-size="14" fill="rgb(31,240,31)">Cl</text>
-  <text x="225.67" y="148.65" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
+  <style> text {font-family: sans-serif;} #mol7 { pointer-events:none; } #mol7 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="204.2" y="184.75" stroke="none" font-size="14" fill="rgb(31,240,31)">Cl</text>
+  <text x="225.67" y="148.65" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
   <line x1="210.64" y1="158.09" x2="225.59" y2="149.32" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="208.83" y1="154.98" x2="223.76" y2="146.22" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="210.76" y1="173.09" x2="210.62" y2="156.02" stroke="rgb(0,0,0)" stroke-width="1.44" />
@@ -59,10 +59,10 @@ exports[`rxn-renderer generate file for json 1`] = `
       RT, In solution, 73%
     </div>
   </div><div><svg id="mol8" xmlns="http://www.w3.org/2000/svg" version="1.1" width="159px" height="122px" viewBox="121 86 159 122">
-  <style> #mol8 { pointer-events:none; } #mol8 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="184.55" y="160.67" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">N</text>
-  <text x="184.55" y="174.67" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">H</text>
-  <text x="204.95" y="124.67" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
+  <style> text {font-family: sans-serif;} #mol8 { pointer-events:none; } #mol8 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="184.55" y="160.67" stroke="none" font-size="14" fill="rgb(48,80,248)">N</text>
+  <text x="184.55" y="174.67" stroke="none" font-size="14" fill="rgb(48,80,248)">H</text>
+  <text x="204.95" y="124.67" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
   <line x1="212.19" y1="145.04" x2="212.19" y2="127" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="208.59" y1="145.04" x2="208.59" y2="127" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="195.66" y1="152.5" x2="210.39" y2="144" stroke="rgb(0,0,0)" stroke-width="1.44" />
@@ -97,15 +97,15 @@ exports[`rxn-renderer generate file for json 1`] = `
 
 exports[`rxn-renderer generate file for rxn 1`] = `
 "<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;"><div><svg id="mol1" xmlns="http://www.w3.org/2000/svg" version="1.1" width="250px" height="137px" viewBox="-25 -19 250 137">
-  <style> #mol1 { pointer-events:none; } #mol1 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="53.08" y="89.22" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">N</text>
-  <text x="92.49" y="20.05" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
-  <text x="172.69" y="43.09" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">N</text>
-  <text x="183.8" y="37.42" font-family=" Helvetica" font-size="9" fill="rgb(48,80,248)">+</text>
-  <text x="182.8" y="32.42" font-family=" Helvetica" font-size="9" fill="rgb(48,80,248)">2</text>
-  <text x="172.69" y="29.09" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">H</text>
-  <text x="12.75" y="89.28" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
-  <text x="2.64" y="89.28" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">H</text>
+  <style> text {font-family: sans-serif;} #mol1 { pointer-events:none; } #mol1 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="53.08" y="89.22" stroke="none" font-size="14" fill="rgb(48,80,248)">N</text>
+  <text x="92.49" y="20.05" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
+  <text x="172.69" y="43.09" stroke="none" font-size="14" fill="rgb(48,80,248)">N</text>
+  <text x="183.8" y="37.42" stroke="none" font-size="9" fill="rgb(48,80,248)">+</text>
+  <text x="182.8" y="32.42" stroke="none" font-size="9" fill="rgb(48,80,248)">2</text>
+  <text x="172.69" y="29.09" stroke="none" font-size="14" fill="rgb(48,80,248)">H</text>
+  <text x="12.75" y="89.28" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
+  <text x="2.64" y="89.28" stroke="none" font-size="14" fill="rgb(255,13,13)">H</text>
   <line x1="57.99" y1="38.48" x2="38.08" y2="50.06" stroke="rgb(0,0,0)" stroke-width="1.38" />
   <line x1="57.61" y1="42.7" x2="41.94" y2="51.81" stroke="rgb(0,0,0)" stroke-width="1.38" />
   <line x1="38.15" y1="73.1" x2="52.08" y2="81.09" stroke="rgb(0,0,0)" stroke-width="1.38" />
@@ -153,11 +153,11 @@ exports[`rxn-renderer generate file for rxn 1`] = `
   <circle id="mol1:Atom:12" class="event" cx="38.15" cy="73.1" r="8" opacity="0" />
   <circle id="mol1:Atom:13" class="event" cx="18.19" cy="84.62" r="8" opacity="0" />
 </svg></div><div>+</div><div><svg id="mol2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="129px" height="81px" viewBox="35 10 129 81">
-  <style> #mol2 { pointer-events:none; } #mol2 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="104.95" y="60.67" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
-  <text x="84.16" y="48.67" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
-  <text x="63.77" y="60.67" font-family=" Helvetica" font-size="14" fill="rgb(0,0,0)">H</text>
-  <text x="126.12" y="48.67" font-family=" Helvetica" font-size="14" fill="rgb(0,0,0)">H</text>
+  <style> text {font-family: sans-serif;} #mol2 { pointer-events:none; } #mol2 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="104.95" y="60.67" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
+  <text x="84.16" y="48.67" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
+  <text x="63.77" y="60.67" stroke="none" font-size="14" fill="rgb(0,0,0)">H</text>
+  <text x="126.12" y="48.67" stroke="none" font-size="14" fill="rgb(0,0,0)">H</text>
   <line x1="103.95" y1="52.28" x2="96.05" y2="47.72" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="74.88" y1="52.5" x2="83.16" y2="47.72" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="125.12" y1="47.5" x2="116.84" y2="52.28" stroke="rgb(0,0,0)" stroke-width="1.44" />
@@ -183,14 +183,14 @@ exports[`rxn-renderer generate file for rxn 1`] = `
       
     </div>
   </div><div><svg id="mol3" xmlns="http://www.w3.org/2000/svg" version="1.1" width="193px" height="133px" viewBox="-5 -13 193 133">
-  <style> #mol3 { pointer-events:none; } #mol3 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="136.5" y="56.18" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">N</text>
-  <text x="147.61" y="50.52" font-family=" Helvetica" font-size="9" fill="rgb(48,80,248)">+</text>
-  <text x="136.5" y="42.18" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">H</text>
-  <text x="75.53" y="90.07" font-family=" Helvetica" font-size="14" fill="rgb(48,80,248)">N</text>
-  <text x="33.59" y="89.83" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
-  <text x="23.48" y="89.83" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">H</text>
-  <text x="93.82" y="35.77" font-family=" Helvetica" font-size="14" fill="rgb(0,0,0)">H</text>
+  <style> text {font-family: sans-serif;} #mol3 { pointer-events:none; } #mol3 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="136.5" y="56.18" stroke="none" font-size="14" fill="rgb(48,80,248)">N</text>
+  <text x="147.61" y="50.52" stroke="none" font-size="9" fill="rgb(48,80,248)">+</text>
+  <text x="136.5" y="42.18" stroke="none" font-size="14" fill="rgb(48,80,248)">H</text>
+  <text x="75.53" y="90.07" stroke="none" font-size="14" fill="rgb(48,80,248)">N</text>
+  <text x="33.59" y="89.83" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
+  <text x="23.48" y="89.83" stroke="none" font-size="14" fill="rgb(255,13,13)">H</text>
+  <text x="93.82" y="35.77" stroke="none" font-size="14" fill="rgb(0,0,0)">H</text>
   <line x1="101.37" y1="73.41" x2="101.37" y2="49.41" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="97.77" y1="70.84" x2="97.77" y2="51.97" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="59.81" y1="73.41" x2="74.53" y2="81.91" stroke="rgb(0,0,0)" stroke-width="1.44" />
@@ -244,10 +244,10 @@ exports[`rxn-renderer generate file for rxn 1`] = `
   <circle id="mol3:Atom:12" class="event" cx="39.04" cy="85.17" r="8" opacity="0" />
   <circle id="mol3:Atom:13" class="event" cx="98.88" cy="31.11" r="8" opacity="0" />
 </svg></div><div>+</div><div><svg id="mol4" xmlns="http://www.w3.org/2000/svg" version="1.1" width="79px" height="110px" viewBox="61 -5 79 110">
-  <style> #mol4 { pointer-events:none; } #mol4 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="100.55" y="54.67" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
-  <text x="88.95" y="33.88" font-family=" Helvetica" font-size="14" fill="rgb(0,0,0)">H</text>
-  <text x="88.95" y="75.45" font-family=" Helvetica" font-size="14" fill="rgb(0,0,0)">H</text>
+  <style> text {font-family: sans-serif;} #mol4 { pointer-events:none; } #mol4 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="100.55" y="54.67" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
+  <text x="88.95" y="33.88" stroke="none" font-size="14" fill="rgb(0,0,0)">H</text>
+  <text x="88.95" y="75.45" stroke="none" font-size="14" fill="rgb(0,0,0)">H</text>
   <line x1="101.96" y1="43" x2="98.04" y2="36.22" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="101.96" y1="57" x2="98.04" y2="63.78" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line id="mol4:Bond:0" class="event" x1="106" y1="50" x2="94" y2="29.22" stroke-width="8" opacity="0" />
@@ -256,9 +256,9 @@ exports[`rxn-renderer generate file for rxn 1`] = `
   <circle id="mol4:Atom:1" class="event" cx="94" cy="29.22" r="8" opacity="0" />
   <circle id="mol4:Atom:2" class="event" cx="94" cy="70.78" r="8" opacity="0" />
 </svg></div><div>+</div><div><svg id="mol5" xmlns="http://www.w3.org/2000/svg" version="1.1" width="92px" height="69px" viewBox="54 16 92 69">
-  <style> #mol5 { pointer-events:none; } #mol5 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
-  <text x="82.55" y="54.67" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
-  <text x="106.55" y="54.67" font-family=" Helvetica" font-size="14" fill="rgb(255,13,13)">O</text>
+  <style> text {font-family: sans-serif;} #mol5 { pointer-events:none; } #mol5 .event  { pointer-events:all; } line { stroke-linecap:round; } polygon { stroke-linejoin:round; } </style>
+  <text x="82.55" y="54.67" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
+  <text x="106.55" y="54.67" stroke="none" font-size="14" fill="rgb(255,13,13)">O</text>
   <line x1="94.45" y1="51.8" x2="105.55" y2="51.8" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line x1="94.45" y1="48.2" x2="105.55" y2="48.2" stroke="rgb(0,0,0)" stroke-width="1.44" />
   <line id="mol5:Bond:0" class="event" x1="88" y1="50" x2="112" y2="50" stroke-width="8" opacity="0" />
