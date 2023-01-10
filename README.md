@@ -144,7 +144,7 @@ let html = rxnRenderer.renderRXN(rxn);
 
 [npm-image]: https://img.shields.io/npm/v/rxn-renderer.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/rxn-renderer
-[travis-image]: https://img.shields.io/travis/cheminfo/rxn-renderer/master.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/cheminfo/rxn-renderer/main.svg?style=flat-square
 [travis-url]: https://travis-ci.org/cheminfo/rxn-renderer
 [download-image]: https://img.shields.io/npm/dm/rxn-renderer.svg?style=flat-square
 [download-url]: https://www.npmjs.com/package/rxn-renderer
