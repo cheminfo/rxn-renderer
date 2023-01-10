@@ -8,14 +8,41 @@ export class RxnRenderer {
     this.escaped = options.escaped;
   }
 
+  renderRXNCode(rxnCode) {
+    if (!this.OCL.ReactionEncoder) {
+      throw new Error(
+        'You need at least OCL version 8.1, OCL.ReactionEncoder is not available',
+      );
+    }
+    const reaction = this.OCL.ReactionEncoder.decode(rxnCode);
+    try {
+      const reactants = [];
+      for (let i = 0; i < reaction.getReactants(); i++) {
+        reactants.push(reaction.getReactant(i));
+      }
+      let result = this.getStructuresFromMolecules(reactants);
+      if (reaction.getReactants() > 0 || reaction.getProducts() > 0) {
+        result += this.getArrow();
+      }
+      const products = [];
+      for (let i = 0; i < reaction.getProducts(); i++) {
+        products.push(reaction.getProduct(i));
+      }
+      result += this.getStructuresFromMolecules(products);
+      return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
+    } catch (e) {
+      return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${e}</div>`;
+    }
+  }
+
   renderRXN(rxn) {
     try {
       let parsed = parse(rxn);
-      let result = this.getStructures(parsed.reagents);
+      let result = this.getStructuresFromMolfile(parsed.reagents);
       if (parsed.reagents.length > 0 || parsed.products.length > 0) {
         result += this.getArrow();
       }
-      result += this.getStructures(parsed.products);
+      result += this.getStructuresFromMolfile(parsed.products);
       return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
     } catch (e) {
       return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${e}</div>`;
@@ -26,7 +53,7 @@ export class RxnRenderer {
     let parsed;
     if (object.rxn) {
       parsed = parse(object.rxn);
-      result += this.getStructures(parsed.reagents);
+      result += this.getStructuresFromMolfile(parsed.reagents);
     }
 
     let hover = [];
@@ -42,7 +69,7 @@ export class RxnRenderer {
     result += this.getArrow(hover.join(', '), under.join(', '));
 
     if (object.rxn) {
-      result += this.getStructures(parsed.products);
+      result += this.getStructuresFromMolfile(parsed.products);
     }
 
     return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
@@ -71,23 +98,35 @@ export class RxnRenderer {
     return subscript(safeTagsReplace(value));
   }
 
-  getStructures(structures) {
+  getStructuresFromMolecules(molecules) {
+    if (!molecules || molecules.length === 0) return '';
+    const results = [];
+    for (let molecule of molecules) {
+      results.push(`<div>${this.getSVG(molecule)}</div>`);
+    }
+    return results.join('<div>+</div>');
+  }
+
+  getStructuresFromMolfile(structures) {
     if (!structures || structures.length === 0) return '';
-    let result = [];
+    const results = [];
     for (let structure of structures) {
       let molecule = this.OCL.Molecule.fromMolfile(structure);
-      let svg = molecule.toSVG(this.maxWidth, this.maxHeight, undefined, {
-        autoCrop: true,
-        autoCropMargin: 25,
-        suppressChiralText: true,
-        suppressCIPParity: true,
-        suppressESR: true,
-        noStereoProblem: true,
-      });
-      result.push(`<div>${svg}</div>`);
+      results.push(`<div>${this.getSVG(molecule)}</div>`);
     }
+    return results.join('<div>+</div>');
+  }
 
-    return result.join('<div>+</div>');
+  getSVG(molecule) {
+    return molecule.toSVG(this.maxWidth, this.maxHeight, undefined, {
+      autoCrop: true,
+      autoCropMargin: 25,
+      suppressChiralText: true,
+      suppressCIPParity: true,
+      suppressESR: true,
+      noStereoProblem: true,
+      showMapping: true,
+    });
   }
 }
 
