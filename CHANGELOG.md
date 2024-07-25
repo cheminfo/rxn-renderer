@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/cheminfo/rxn-renderer/compare/v1.0.1...v1.0.2) (2024-07-25)
+
+
+### Bug Fixes
+
+* update dependencies ([ef377ff](https://github.com/cheminfo/rxn-renderer/commit/ef377ff280dd282af43a10124f0d440c88e5b8f5))
+
 ## [1.0.1](https://github.com/cheminfo/rxn-renderer/compare/v1.0.0...v1.0.1) (2023-01-10)
 
 
