@@ -30,8 +30,8 @@ export class RxnRenderer {
       }
       result += this.getStructuresFromMolecules(products);
       return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
-    } catch (e) {
-      return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${e}</div>`;
+    } catch (error) {
+      return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${error}</div>`;
     }
   }
 
@@ -44,8 +44,8 @@ export class RxnRenderer {
       }
       result += this.getStructuresFromMolfile(parsed.products);
       return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${result}</div>`;
-    } catch (e) {
-      return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${e}</div>`;
+    } catch (error) {
+      return `<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">${error}</div>`;
     }
   }
   render(object = {}) {
@@ -131,7 +131,7 @@ export class RxnRenderer {
 }
 
 function subscript(string) {
-  return string.replace(/([a-zA-Z])([0-9]+)/g, '$1<sub>$2</sub>');
+  return string.replaceAll(/([A-Za-z])(\d+)/g, '$1<sub>$2</sub>');
 }
 
 let tagsToReplace = {
@@ -141,5 +141,5 @@ let tagsToReplace = {
 };
 
 function safeTagsReplace(str) {
-  return str.replace(/[&<>]/g, (tag) => tagsToReplace[tag] || tag);
+  return str.replaceAll(/[&<>]/g, (tag) => tagsToReplace[tag] || tag);
 }
