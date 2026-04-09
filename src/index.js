@@ -1,4 +1,4 @@
-import parse from 'rxn-parser';
+import { parse } from 'rxn-parser';
 
 export class RxnRenderer {
   constructor(OCL, options = {}) {
@@ -131,7 +131,10 @@ export class RxnRenderer {
 }
 
 function subscript(string) {
-  return string.replaceAll(/([A-Za-z])(\d+)/g, '$1<sub>$2</sub>');
+  return string.replaceAll(
+    /(?<letter>[A-Za-z])(?<digits>\d+)/g,
+    '$<letter><sub>$<digits></sub>',
+  );
 }
 
 let tagsToReplace = {
