@@ -16,7 +16,7 @@
     "prettier": "prettier --check src",
     "prettier-write": "prettier --write src",
     "test": "npm run test-only && npm run eslint && npm run prettier",
-    "test-only": "vitest run"
+    "test-only": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "rxn-parser": "^2.0.0"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.4",
     "cheminfo-build": "^1.3.2",
     "eslint": "^9.39.2",
     "eslint-config-cheminfo": "^17.2.0",
