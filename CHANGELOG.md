@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/cheminfo/rxn-renderer/compare/v1.0.2...v2.0.0) (2026-04-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* package is now ESM-only ("type": "module"), consumers using require() will need to update.
+
+### feat\
+
+* migrate to ESM, vitest, and ESLint 9 flat config ([66534ab](https://github.com/cheminfo/rxn-renderer/commit/66534ab1c198bfefaef335da9ebe5b90139bb418))
+
+
+### Bug Fixes
+
+* add coverage support for CI ([901bd0c](https://github.com/cheminfo/rxn-renderer/commit/901bd0c15419e7e5c61e7c0579bcff38e9fe173a))
+
 ## [1.0.2](https://github.com/cheminfo/rxn-renderer/compare/v1.0.1...v1.0.2) (2024-07-25)
 
 
