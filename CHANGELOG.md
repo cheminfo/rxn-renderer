@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/cheminfo/rxn-renderer/compare/v2.0.0...v2.1.0) (2026-10-21)
+
+
+### Features
+
+* add conditions to renderRXNCode and a showMapping option ([7698c60](https://github.com/cheminfo/rxn-renderer/commit/7698c60420a52389ad9737158191f3da13c7f197))
+
 ## [2.0.0](https://github.com/cheminfo/rxn-renderer/compare/v1.0.2...v2.0.0) (2026-04-09)
 
 
