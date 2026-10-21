@@ -204,6 +204,10 @@ Each method returns an HTML string: a wrapping flex row of SVG structures, `+` s
 - The arrow is drawn in `currentColor`, so it follows the text colour of the page, dark mode included. The structures keep OpenChemLib's colours.
 - `renderRXN` and `renderRXNCode` return the text of an error they meet, escaped, in the same row. `render` throws it.
 
+## Development
+
+`npm run dev` serves a debug page at http://localhost:40611 (or `PORT`). It imports `src/index.js` directly, so every edit reloads the page. Pick an example or paste an RXN file, a reaction code or a reaction SMILES; set the conditions and options; and read the rendered reaction and its HTML.
+
 ## License
 
 [MIT](./LICENSE)

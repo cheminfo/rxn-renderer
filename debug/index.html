@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rxn-renderer debug</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <label>
+        Example
+        <select id="example"></select>
+      </label>
+      <label>
+        Method
+        <select id="method">
+          <option value="renderRXN">renderRXN(rxn)</option>
+          <option value="render">render({ rxn, ...conditions })</option>
+          <option value="renderRXNCode">renderRXNCode(code, conditions)</option>
+          <option value="smiles">renderRXNCode from reaction SMILES</option>
+        </select>
+      </label>
+      <label class="wide">
+        Input
+        <textarea id="input" rows="12" spellcheck="false"></textarea>
+      </label>
+      <fieldset id="conditions">
+        <legend>Conditions</legend>
+      </fieldset>
+      <fieldset>
+        <legend>Options</legend>
+        <label>maxWidth <input id="maxWidth" type="number" value="400" /></label>
+        <label
+          >maxHeight <input id="maxHeight" type="number" value="300"
+        /></label>
+        <label><input id="showMapping" type="checkbox" checked /> showMapping</label>
+        <label><input id="escaped" type="checkbox" /> escaped</label>
+        <label><input id="dark" type="checkbox" /> dark background</label>
+      </fieldset>
+    </form>
+    <p id="status"></p>
+    <div id="output"></div>
+    <details>
+      <summary>HTML</summary>
+      <pre id="html"></pre>
+    </details>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
