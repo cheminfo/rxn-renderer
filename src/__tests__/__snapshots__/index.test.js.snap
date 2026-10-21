@@ -27,10 +27,10 @@ exports[`check a rxnCode 1`] = `
     <div style="text-align: center; margin: 5px"></div>
     <div>
       <div
-        style="top: 50%; position: relative; border-top: 2px solid black; width: 100%; min-width: 70px"
+        style="top: 50%; position: relative; border-top: 2px solid currentColor; width: 100%; min-width: 70px"
       >
         <div
-          style="position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid black;border-bottom: 5px solid transparent;"
+          style="position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid currentColor;border-bottom: 5px solid transparent;"
         ></div>
       </div>
     </div>
@@ -112,10 +112,10 @@ exports[`generate file for json 1`] = `
     <div style="text-align: center; margin: 5px">Pd/C, Et<sub>3</sub>N, CH<sub>2</sub>Cl<sub>2</sub></div>
     <div>
       <div
-        style="top: 50%; position: relative; border-top: 2px solid black; width: 100%; min-width: 70px"
+        style="top: 50%; position: relative; border-top: 2px solid currentColor; width: 100%; min-width: 70px"
       >
         <div
-          style="position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid black;border-bottom: 5px solid transparent;"
+          style="position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid currentColor;border-bottom: 5px solid transparent;"
         ></div>
       </div>
     </div>
@@ -236,10 +236,10 @@ exports[`generate file for rxn 1`] = `
     <div style="text-align: center; margin: 5px"></div>
     <div>
       <div
-        style="top: 50%; position: relative; border-top: 2px solid black; width: 100%; min-width: 70px"
+        style="top: 50%; position: relative; border-top: 2px solid currentColor; width: 100%; min-width: 70px"
       >
         <div
-          style="position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid black;border-bottom: 5px solid transparent;"
+          style="position: absolute; right: -2px; top: -6px; border-top: 5px solid transparent; border-left: 10px solid currentColor;border-bottom: 5px solid transparent;"
         ></div>
       </div>
     </div>

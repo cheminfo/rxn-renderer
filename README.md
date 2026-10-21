@@ -5,13 +5,34 @@
 [![npm download][download-image]][download-url]
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6611392.svg)](https://doi.org/10.5281/zenodo.6611392)
 
-.
+Draw a chemical reaction as HTML: OpenChemLib structures, `+` signs and an arrow, with the conditions written around it.
 
 ## Installation
 
 `$ npm install --save rxn-renderer`
 
 ## Usage
+
+### From an OpenChemLib reaction code
+
+```js
+import OCL from 'openchemlib';
+import { RxnRenderer } from 'rxn-renderer';
+
+const reaction = OCL.Reaction.fromSmiles('C=Cc1ccccc1>>CCc1ccccc1');
+const rxnCode = OCL.ReactionEncoder.encode(reaction);
+
+const rxnRenderer = new RxnRenderer(OCL, { maxWidth: 200, maxHeight: 100 });
+const html = rxnRenderer.renderRXNCode(rxnCode, {
+  catalyst: 'Pd/C',
+  reagent: 'H2',
+  solvent: 'MeOH',
+  temperature: '25 °C',
+  yield: '95 %',
+});
+```
+
+### From an RXN file
 
 ```js
 import { RxnRenderer } from 'rxn-renderer';
@@ -137,6 +158,51 @@ const rxnRenderer = new RxnRenderer(OCL, {
 });
 let html = rxnRenderer.renderRXN(rxn);
 ```
+
+## API
+
+### `new RxnRenderer(OCL, options)`
+
+`OCL` is the OpenChemLib module. `renderRXNCode` needs version 8.1 or later.
+
+| Option        | Default | Description                                                  |
+| ------------- | ------- | ------------------------------------------------------------ |
+| `maxWidth`    | `400`   | Largest width of a structure, in pixels.                     |
+| `maxHeight`   | `300`   | Largest height of a structure, in pixels.                    |
+| `escaped`     | `false` | The conditions are HTML already, so they are not escaped.    |
+| `showMapping` | `true`  | Draw the atom-mapping numbers. `false` draws the atoms only. |
+
+### `renderRXNCode(rxnCode, conditions?)`
+
+Draws a reaction from an OpenChemLib reaction code (`ReactionEncoder`), with the optional conditions around the arrow. The arrow and its conditions are drawn when the reaction has a reactant or a product.
+
+### `renderRXN(rxn)`
+
+Draws a reaction from the content of an RXN file.
+
+### `render({ rxn, ...conditions })`
+
+Draws the reaction of an RXN file, if `rxn` is given, with the conditions around the arrow. The arrow is drawn even without `rxn`.
+
+### Conditions
+
+| Field         | Where                                   |
+| ------------- | --------------------------------------- |
+| `catalyst`    | Above the arrow, first.                 |
+| `reagent`     | Above the arrow, after the catalyst.    |
+| `solvent`     | Above the arrow, last.                  |
+| `temperature` | Below the arrow, first.                 |
+| `conditions`  | Below the arrow, after the temperature. |
+| `yield`       | Below the arrow, last.                  |
+
+Each value is a string, and an empty one is skipped. The values on one side are joined by commas. Unless `escaped` is set, `&`, `<` and `>` are escaped. Then the digits that follow a letter become subscripts: `H2O` gives H<sub>2</sub>O.
+
+### Output
+
+Each method returns an HTML string: a wrapping flex row of SVG structures, `+` signs and the arrow.
+
+- The arrow is drawn in `currentColor`, so it follows the text colour of the page, dark mode included. The structures keep OpenChemLib's colours.
+- `renderRXN` and `renderRXNCode` return the text of an error they meet, escaped, in the same row. `render` throws it.
 
 ## License
 
